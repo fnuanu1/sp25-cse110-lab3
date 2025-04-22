@@ -4,21 +4,21 @@
   }
 main {
     color: var(--main-color, purple); /* fallback is light gray */
-    border: 50px 50px 75px 100px;
     padding: 50px 50px 75px 100px;
     text-align: center;
 
 }
 body{
+    width:900px;
    
     background: rgb(247, 213, 246);
-    padding: 50px 50px 50px 50px;
+    padding: 10px 10px 10px 10px;
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-    border: 25px 25px 25px 25px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 5px;
     border: 2mm dashed;
     border-color: rgb(0, 255, 255);
    
@@ -42,7 +42,7 @@ h1{
     background-color: #d5f7eb;
     width: 2in; /*absolute*/
     margin: auto;
-    border: 150px 150px 175px 100px;
+    border: 50px;
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
@@ -78,10 +78,10 @@ yay {
 section{
     background-image: linear-gradient(to right top, #dcf6ff, #a5cbe0, #74a1c3, #4b76a6, #2c4d87);
     margin: 100px 100px 175px 100px;
-    border: 150x 150px 150px 100px;
-    padding: 150x 150px 175px 100px;
+    border: 50px;
+    padding: 150px 150px 175px 100px;
     text-align: center;
-    border: 50px solid;
+    border: 10px solid;
 
 }
 button:hover {
@@ -91,6 +91,7 @@ h1:active{
     color: red;
 }
 header{
+
    /* background: hsl(77 69% 89%); */
    position: sticky;
    top: 20px;
@@ -103,14 +104,13 @@ header{
     color:aquamarine;
    background: color(display-p3 1 0.7 1 / 0.8);
    width: 20cm; 
-   text-align: center;
+   text-align: left;
    margin: 50px 50px 75px 100px;
-   border: 150x 150px 175px 100px;
+   border: 50px;
    padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
-    padding-left: 80px;
-   text-align: center;
+    padding-left: 50px;
    border-top: 30px;
    border-bottom: 30px;
    border-left: 30px;
@@ -125,13 +125,13 @@ header{
 nav{
     position: static;
     background-color: #d5f7eb;
-    width: 800px; /*absolute*/
+    width: 300px; /*absolute*/
     height: 10em; /*relative*/
-    margin: 50px 50px 75px 100px;
-    border: 30px 30px 30px 30px;
+    margin: 40px 40px 40px 40px;
+    padding: 30px 30px 30px 30px;
+    border: 5px;
     border: 2mm solid;
     border-color: rgb(228, 0, 186);
-   padding: 50px 50px 50px 50px;
     text-align: center;
 
 }
@@ -146,7 +146,7 @@ footer{
     font-size: 1rem;
     /*both relative*/
     margin: 60px 60px 60px 60px;
-    border: 40px 40px 40px 40px;
+    border: 40px;
     padding: 20px 20px 20px 20px;
     
 
