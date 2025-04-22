@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Meeting Minutes</title>
         <link rel= "icon" type="image/x-icon" href="/images/favicon.ico">
+        <link rel="stylesheet" href="indexc.css">
     </head>
     <body>
         <!-- id for every section needed-->
@@ -18,24 +19,59 @@
                 <li><a href="#Attendees"> Attendees List Notes </a> </li>
                 <li><a href="#Shout"> Special Shoutouts </a> </li>
                 <li><a href="#Next"> Next Steps </a> </li>
+                
             </ul>
         </nav>
         <hr />
+        
+            <h1> Today's Meeting
+                <style>
+                @import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+                </style>
+                </h1>
+            <div class="flex-container">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div> 
+                <div>4</div>
+                <div>5</div>
+                <div>6</div> 
+                <div>3</div>
+                <div>3</div>
+                <div>3</div>
+                <div>3</div>
+                <div>3</div>
+                <div>3</div>
+                <div>3</div>
+                <div>3</div>
+                <div>3</div>
+                <div>3</div>
+                <div>3</div>
+                <div>3</div>
+                <div>3</div>
+              </div>
+            <hr />
 
-        <h1> TODAY's MEETING </h1>
-        <textarea rows = "1" cols="2"> MM </textarea> / <textarea rows = "1" cols="2"> DD  </textarea> / <textarea rows = "1" cols="2"> YY  </textarea>
+            <div class="grid-container">
+                <p1>This is a very long meeting!</p1>
+                <p2>This is so boring!!!!</p2>
+                <p3>YOLO life everyday :D </p3> 
+                <p4>I don't know what they are talking about.</p4>
+                <p5>Can I leave please?</p5>
+              </div>
+            <hr />
+            <main>
+               
 
-        <main>
-
-            <section>
-                <h3 id="Agenda"> General Agenda: </h3>
-                <textarea rows="1" cols="70"> Example: Financial dispute management & annual Budget ... </textarea>
-                <ol>
-                    <li><input type="checkbox" /> Yapping session </li>
-                    <li><input type="checkbox" /> Presentation 1 </li>
-                    <li><input type="checkbox" /> Presentation 2 </li>
-                    <li><input type="checkbox" /> Cuss out session </li>
-                </ol>
+                <section = "yay">
+                    <h3 id="Agenda"> General Agenda: </h3>
+                    <textarea rows="1" cols="70"> Example: Financial dispute management & annual Budget ... </textarea>
+                    <ol>
+                        <li><input type="checkbox" /> Yapping session </li>
+                        <li><input type="checkbox" /> Presentation 1 </li>
+                        <li><input type="checkbox" /> Presentation 2 </li>
+                        <li><input type="checkbox" /> Cuss out session </li>
+                    </ol>
             </section>
 
             <hr />
@@ -86,65 +122,69 @@
             </section>
 
             <hr />
+                <section>
+                    <h3> Fill this out! </h3>
+                    <form action="/action_page.php" method="get" class="form">
+                        <div class="form">
+                            <label for="email">Enter your email: </label>
+                            <input type="email" name="email" id="email" required />
+                                <fieldset>
+                                    <legend>Choose your favorite brainrot!</legend>
 
-            <h3> Fill this out! </h3>
-            <form action="/action_page.php" method="get" class="form">
-                <div class="form">
-                    <label for="email">Enter your email: </label>
-                    <input type="email" name="email" id="email" required />
-                        <fieldset>
-                            <legend>Choose your favorite brainrot!</legend>
+                                    <input type="radio" id="skibidi" name="mons" value="S" />
+                                    <label for="skibidi">Skibidi</label><br />
 
-                            <input type="radio" id="skibidi" name="mons" value="S" />
-                            <label for="skibidi">Skibidi</label><br />
+                                    <input type="radio" id="gigachad" name="mons" value="G" />
+                                    <label for="gigachad">gigachad</label><br />
 
-                            <input type="radio" id="gigachad" name="mons" value="G" />
-                            <label for="gigachad">gigachad</label><br />
+                                    <input type="radio" id="watermeloncini" name="mons" value="W" />
+                                    <label for="watermeloncini">watermeloncini</label>
+                                    
+                                    <br />
 
-                            <input type="radio" id="watermeloncini" name="mons" value="W" />
-                            <label for="watermeloncini">watermeloncini</label>
-                            
-                            <br />
+                                </fieldset>
 
-                        </fieldset>
+                                <label for="BFFSc">Choose your BFF:</label>
+                                <input list="BFFS" id="BFFSc" name="BFFSc" />
+                                <datalist id="BFFS">
+                                    <option value="Sophia"></option>
+                                    <option value="Thanh"></option>
+                                    <option value="Mom"></option>
+                                    <option value="Rama"></option>
+                                    <option value="Anne"></option>
+                                    <br />
+                                </datalist>
+                                
+                                <br />
 
-                        <label for="BFFSc">Choose your BFF:</label>
-                        <input list="BFFS" id="BFFSc" name="BFFSc" />
-                        <datalist id="BFFS">
-                            <option value="Sophia"></option>
-                            <option value="Thanh"></option>
-                            <option value="Mom"></option>
-                            <option value="Rama"></option>
-                            <option value="Anne"></option>
-                        </datalist>
+                                <label for="family-select">Choose a favorite family member:</label>
+                                <select name="family" id="family-select">
+                                    <option value="">--Please choose an option--</option>
+                                    <option value="Mother">Mother</option>
+                                    <option value="Father">Father</option>
+                                    <option value="Brother">Brother</option>
+                                    <option value="Sister">Sister</option>
+                                    <option value="Dog">Dog</option>
+                                    <option value="None">None</option>
+                                </select>   
+                        </div>
                         
-                        <br />
-
-                        <label for="family-select">Choose a favorite family member:</label>
-                        <select name="family" id="family-select">
-                            <option value="">--Please choose an option--</option>
-                            <option value="Mother">Mother</option>
-                            <option value="Father">Father</option>
-                            <option value="Brother">Brother</option>
-                            <option value="Sister">Sister</option>
-                            <option value="Dog">Dog</option>
-                            <option value="None">None</option>
-                        </select>   
-                </div>
-                
-                <div class="form">
-                    <button class="okay" type="reset">Sign Up</button> 
-                </div>
-            </form>
+                        <div class="form">
+                            <button class="okay" type="reset">Sign Up</button> 
+                        </div>
+                </form>
+            </section>
         </main>
 
         <hr />
         
         <footer>
-            <h5> <i>Contact: fanu@ucsd.edu</i>  </h5>
-            <p> YOLOing life <b> @ UCSD</b> </p>
-            <p> Visit <a href="https://www.amazon.com/?tag=amazusnavi-20&hvadid=675149237887&hvpos=&hvnetw=g&hvrand=5194634456683023877&hvpone=&hvptwo=&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031300&hvtargid=kwd-10573980&ref=pd_sl_7j18redljs_e&hydadcr=28883_14649097">Shop some essentials at our Company!</a>
-            </p>
+            <section>
+                <h5> <i>Contact: fanu@ucsd.edu</i>  </h5>
+                <p> YOLOing life <b> @ UCSD</b> </p>
+                <p> Visit <a href="https://www.amazon.com/?tag=amazusnavi-20&hvadid=675149237887&hvpos=&hvnetw=g&hvrand=5194634456683023877&hvpone=&hvptwo=&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031300&hvtargid=kwd-10573980&ref=pd_sl_7j18redljs_e&hydadcr=28883_14649097">Shop some essentials at our Company!</a>
+                </p>
+            </section>
         </footer>
     </body>
 </html>

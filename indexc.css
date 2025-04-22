@@ -1,0 +1,203 @@
+/*start*/
+:root {
+    --main-color: rgb(255, 69, 112);
+  }
+main {
+    color: var(--main-color, purple); /* fallback is light gray */
+    border: 50px 50px 75px 100px;
+    padding: 50px 50px 75px 100px;
+    text-align: center;
+
+}
+body{
+   
+    background: rgb(247, 213, 246);
+    padding: 50px 50px 50px 50px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 25px 25px 25px 25px;
+    border: 2mm dashed;
+    border-color: rgb(0, 255, 255);
+   
+}
+    .lavishly-yours-regular {
+        font-family: "Lavishly Yours", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }   
+
+h1{
+    font-family: "Lavishly Yours";
+    display: inline-block;
+    height: 100px;
+    width:100px;
+    max-width: 120px;
+    max-height: 150px;
+    text-decoration: underline;
+    color: green;
+    background: pink;
+    background-color: #d5f7eb;
+    width: 2in; /*absolute*/
+    margin: auto;
+    border: 150px 150px 175px 100px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    text-align: center;
+    border-radius: 50%;
+    border:solid;
+    border-color: rgb(23, 235, 55);
+    border-width: 20mm;
+}
+
+yay {
+    height: 100px;
+    padding: 50px 30px 50px 80px;
+
+}
+.flex-container {
+    display: flex;
+    background-color: orange;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center ;
+    flex-basis: auto;
+  }
+  
+  .flex-container > div {
+    background-color: #4000ff;
+   
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+section{
+    background-image: linear-gradient(to right top, #dcf6ff, #a5cbe0, #74a1c3, #4b76a6, #2c4d87);
+    margin: 100px 100px 175px 100px;
+    border: 150x 150px 150px 100px;
+    padding: 150x 150px 175px 100px;
+    text-align: center;
+    border: 50px solid;
+
+}
+button:hover {
+    color: green;
+  }
+h1:active{
+    color: red;
+}
+header{
+   /* background: hsl(77 69% 89%); */
+   position: sticky;
+   top: 20px;
+   display: block;
+   height: 100px;
+    width:100px;
+    max-width: 120px;
+    max-height: 150px;
+   text-decoration: line-through;
+    color:aquamarine;
+   background: color(display-p3 1 0.7 1 / 0.8);
+   width: 20cm; 
+   text-align: center;
+   margin: 50px 50px 75px 100px;
+   border: 150x 150px 175px 100px;
+   padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+   text-align: center;
+   border-top: 30px;
+   border-bottom: 30px;
+   border-left: 30px;
+   border-right: 30px;
+   border-radius: 50%;
+   border: 2mm dashed;
+   border-color: rgb(255, 0, 81);
+
+
+
+}
+nav{
+    position: static;
+    background-color: #d5f7eb;
+    width: 800px; /*absolute*/
+    height: 10em; /*relative*/
+    margin: 50px 50px 75px 100px;
+    border: 30px 30px 30px 30px;
+    border: 2mm solid;
+    border-color: rgb(228, 0, 186);
+   padding: 50px 50px 50px 50px;
+    text-align: center;
+
+}
+textarea{
+    /*background: color(colorspace c1 c2 c3[ / A])*/
+    background: color-mix(in srgb, green 10%, skyblue 2%)
+}
+
+footer{
+    width: 80%;
+    height:20%;
+    font-size: 1rem;
+    /*both relative*/
+    margin: 60px 60px 60px 60px;
+    border: 40px 40px 40px 40px;
+    padding: 20px 20px 20px 20px;
+    
+
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 150px [col-start]);
+  grid-template-rows: repeat(3, 150px [row-start]);
+  grid-row-gap: 10px;
+    grid-column-gap: 10px;
+
+  
+}
+.grid-container>p1{
+    grid-column: 1 / span 2;
+    grid-row: 6/ span 7;
+    border: 2mm solid;
+    border-color: rgb(228, 0, 186);
+    justify-self: end;
+    
+  }
+  .grid-container>p2 {
+    grid-column: 2 / span 3;
+    grid-row: 3 / span 4;
+    border: 2mm solid;
+    border-color: rgb(117, 195, 255);
+
+  }
+  .grid-container>p3{
+    grid-column: 3 / span 4;
+    grid-row: 6 / span 7;
+    border: 2mm solid;
+    border-color: rgb(25, 255, 12);
+    justify-self: center;
+
+  }
+  .grid-container>p4{
+    grid-column: 4 / span 5;
+    grid-row: 2/ span 3;
+    border: 2mm solid;
+    border-color: rgb(228, 209, 0);
+  }
+  .grid-container>p5{
+    grid-area: footer;
+    grid-column: 5 / span 6;
+    grid-row: 1/ span 2;
+    border: 2mm solid;
+    border-color: rgb(255, 126, 6);
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(255, 238, 0);
+    }
+  }
