@@ -139,7 +139,7 @@ nav{
 }
 textarea{
     /*background: color(colorspace c1 c2 c3[ / A])*/
-    background-color: color-mix(in hsl, hsl(126, 90%, 71%) 50%, hsl(88, 93%, 78%) 50%);
+    background-color: color-mix(rgb, blue 50%, red 50%);
 
 }
 
@@ -303,7 +303,7 @@ div > button{
         border: 2px dotted red;
       }
       
-      .flex-container{
+      .grid-container{
         & > div {
             color: blue;
         
