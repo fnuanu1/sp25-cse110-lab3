@@ -320,7 +320,7 @@ div > button{
       }
       
       /* Nested selector is not supported on my computer and browser so the tutor told me to mention it for all three functions that were not being processed */
-      .bro{
+      /*.bro{
         & > div {
             color: blue;
           }
