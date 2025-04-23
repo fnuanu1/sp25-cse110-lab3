@@ -322,10 +322,6 @@ div > button{
       .bro{
         & > div {
             color: blue;
-        
-            &:hover {
-              color: rgb(242, 255, 0);
-            }
           }
       }
       
