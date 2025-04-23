@@ -301,9 +301,8 @@ div > button{
         border: 2px dotted red;
       }
       
-      section{
-        color: rgb(178, 85, 255);
-        & > h3 {
+      .flex-container{
+        & > div {
             color: blue;
         
             &:hover {
