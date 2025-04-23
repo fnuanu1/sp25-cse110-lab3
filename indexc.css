@@ -138,10 +138,8 @@ nav{
 }
 textarea{
     /*background: color(colorspace c1 c2 c3[ / A])*/
-    @supports (color: color-mix(in srgb, green 80%, skyblue 20%)) {
-        color: color-mix(in srgb, green 80%, skyblue 20%);
-      }
-    }
+    background-color: color-mix(in hsl, hsl(125 60 90), salmon 85%);
+}
 
 footer{
     width: 80%;
@@ -305,7 +303,7 @@ div > button{
       
       section{
         color: rgb(178, 85, 255);
-        h3 {
+        & > h3 {
             color: blue;
         
             &:hover {
