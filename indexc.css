@@ -1,6 +1,7 @@
 /*start*/
 /*NOTE: The two wider gamut color functions like mix-color and colorspace and nested selector 
-from part 2 are not supported on my browser so it errors out. 
+from part 2 are not supported on my browser that is from before 2018 so it errors out due to not being 
+supported at all as I checked with caniuse website!
 A tutor told me to put this in the comment section to let the grader know
 
 color(colorspace c1 c2 c3[ / A])
