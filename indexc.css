@@ -138,7 +138,7 @@ nav{
 }
 textarea{
     /*background: color(colorspace c1 c2 c3[ / A])*/
-    background-color: color-mix(in hsl, hsl(125 60 90), salmon 85%);
+    background-color: color-mix(in hsl, hsl(125 60 90) 15%, salmon 85%);
 }
 
 footer{
