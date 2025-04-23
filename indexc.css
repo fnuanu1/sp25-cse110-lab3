@@ -92,7 +92,7 @@ h1:active{
 }
 header{
 
-   /* background: hsl(77 69% 89%); */
+   background: hsl(77 69% 89%);
    position: sticky;
    top: 20px;
    display: block;
@@ -137,7 +137,7 @@ nav{
 }
 textarea{
     /*background: color(colorspace c1 c2 c3[ / A])*/
-    color: color-mix(in srgb, green 10%, skyblue 90%)
+    color: color-mix(srgb, green 10%, skyblue 90%);
 }
 
 footer{
