@@ -102,7 +102,7 @@ header{
     max-height: 150px;
    text-decoration: line-through;
     color:aquamarine;
-   background: color(display-p3 1 0.7 1 / 0.8);
+   background-color: color(display-p3 1 0.7 1 / 0.8);
    width: 20cm; 
    text-align: left;
    margin: 50px 50px 75px 100px;
@@ -137,7 +137,7 @@ nav{
 }
 textarea{
     /*background: color(colorspace c1 c2 c3[ / A])*/
-    background: color-mix(in srgb, green 10%, skyblue 2%)
+    background-color: color-mix(in srgb, green 10%, skyblue 2%)
 }
 
 footer{
@@ -196,8 +196,96 @@ footer{
     border: 2mm solid;
     border-color: rgb(255, 126, 6);
   }
-  @media only screen and (max-width: 600px) {
-    body {
-      background-color: rgb(255, 238, 0);
-    }
+  
+  .highlight{
+    font-weight: bold;
+    font-family: "Lavishly Yours", cursive;
   }
+
+  #brainstorming{
+    background-color: rebeccapurple;
+  }
+
+  p * {
+    background: #3b5bf7;
+    background: radial-gradient(circle, rgba(59, 91, 247, 1) 0%, rgba(252, 70, 107, 1) 100%);
+  }
+  h3{
+    background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+  }
+  [target~="Yay"]{
+    background: #4bf309;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+  }
+
+  *{
+    margin: 0;
+  }
+  footer:hover {
+    color: #ffaa00;
+  }
+
+  :is(div, header):hover {
+    background: radial-gradient(circle, rgb(3, 230, 255) 0%, rgba(252, 70, 107, 1) 100%);
+  }
+form div{
+    font-weight: bold;
+}
+
+div > button{
+    color: #ffaa00;
+
+}
+    @media only screen and (max-width: 600px) {
+        body {
+          background-color: rgb(255, 238, 0);
+        }
+        .body{
+        width: 50%
+        }
+        
+      }
+
+      @media only screen and (max-width: 1024px) {
+        body {
+            background-color: rgb(255, 238, 0);
+            font-size: 0.95rem;
+            width:95%;
+        }
+    
+        .flex-container {
+            flex-direction: column;
+        }
+    
+        h1 {
+            font-size: 1.8rem;
+            padding: 20px;
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (max-width: 400px) {
+        body {
+            background-color: rgb(162, 108, 255);
+            font-size: 16px;
+        }
+
+        .flex-container {
+            flex-direction: column;
+        }
+        section {
+            margin: 1rem auto;
+            padding: 1rem;
+            width: 90%; /* keeps it inside the screen, with breathing room */
+            box-sizing: border-box;
+        
+          }
+          .grid-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+            padding: 1rem 0;
+          }              
+          
+    }
