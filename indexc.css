@@ -102,7 +102,8 @@ header{
     max-height: 150px;
    text-decoration: line-through;
     /*color: color(srgb 1 0 0 / 0.5);  */  
-    background-color: color(srgb 0 1 0);
+   /* background-color: color(srgb 0 1 0);*/
+   /*used in style tag of html*/
 
     width: 20cm; 
    text-align: left;
@@ -138,7 +139,8 @@ nav{
 }
 textarea{
     /*background: color(colorspace c1 c2 c3[ / A])*/
-    background-color: color-mix(in hsl, hsl(126, 90%, 71%) 15%, hsl(88, 93%, 78%) 15%);
+    background-color: color-mix(in hsl, hsl(126, 90%, 71%) 50%, hsl(88, 93%, 78%) 50%);
+
 }
 
 footer{
