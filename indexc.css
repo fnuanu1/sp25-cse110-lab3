@@ -237,15 +237,7 @@ div > button{
     color: #ffaa00;
 
 }
-    @media only screen and (max-width: 600px) {
-        body {
-          background-color: rgb(255, 238, 0);
-        }
-        .body{
-        width: 50%
-        }
-        
-      }
+   
 
       @media only screen and (max-width: 1024px) {
         body {
@@ -288,4 +280,32 @@ div > button{
             padding: 1rem 0;
           }              
           
+    }
+
+    img ~ video {
+        background-color: #d5ffac;
+        padding: 5px;
+      }
+      
+      input + label{
+        background-color: #46ffe6;
+        color: rgb(168, 0, 0);
+    }
+    p.bro{
+        text-decoration: line-through;
+        text-decoration-color: #4000ff;
+    }
+
+    h3:has(+ ul) {
+        border: 2px dotted red;
+      }
+      
+    h5{
+        background-color: rgb(150, 6, 102);
+        font-size: 20px;
+        & > a {
+          &:hover {
+            color: rgb(143, 255, 242);
+          }
+        }
     }
