@@ -102,7 +102,7 @@ header{
     max-height: 150px;
    text-decoration: line-through;
     color:aquamarine;
-   background-color: color(display-p3 1 0.7 1 / 0.8);
+   color: color(display-p3 1 0.7 1 / 0.8);
    width: 20cm; 
    text-align: left;
    margin: 50px 50px 75px 100px;
@@ -137,7 +137,7 @@ nav{
 }
 textarea{
     /*background: color(colorspace c1 c2 c3[ / A])*/
-    background-color: color-mix(in srgb, green 10%, skyblue 2%)
+    color: color-mix(in srgb, green 10%, skyblue 2%)
 }
 
 footer{
