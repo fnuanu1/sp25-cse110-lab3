@@ -137,7 +137,7 @@ nav{
 }
 textarea{
     /*background: color(colorspace c1 c2 c3[ / A])*/
-    color: color-mix(in srgb, green 10%, skyblue 2%)
+    color: color-mix(in srgb, green 10%, skyblue 90%)
 }
 
 footer{
