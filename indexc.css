@@ -303,9 +303,8 @@ div > button{
     h5{
         background-color: rgb(150, 6, 102);
         font-size: 20px;
-        & > a {
-          &:hover {
+        & > a:hover {
             color: rgb(143, 255, 242);
-          }
-        }
+          
     }
+}
